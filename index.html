@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Comentatios</title>
+</head>
+<body>
+    <main class="container">
+        <section class="contenedor-agg">
+            <div class="img-user">
+                <img src="/css/usuario.png" alt="Imagen de usuario">
+            </div>
+            <div class="input" >
+                <input id="newCommet"  type="text" placeholder="Nuevo Comentario...">
+                <div class="button-agg"> 
+                    <button onclick="nComentario()">Comentar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <ul id="comentarios" class="container-2 none"></ul>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
